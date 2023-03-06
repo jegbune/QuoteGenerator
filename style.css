@@ -1,0 +1,49 @@
+body{
+    font-family: monospace ;
+    font-size: 1rem;
+    background: #000;
+}
+
+/* ===============
+TYPOGRAPHY 
+================*/
+h1 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    font-style: italic ;
+    color: #f00;
+    text-align: right;
+}
+
+/* ==============
+LAYOUT
+============== */
+.container {
+    position: relative;
+    margin: 50px auto;
+    padding: 10px;
+    background: #fafafa;
+    color: #fff; 
+    width: 80%;
+    max-width:400px;
+    height: 700px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.next {
+    display: block;
+    margin: auto;
+    background:lightblue;
+    padding:25px 5px ;
+    border-radius: 50%;
+    position: relative;
+    bottom: -395px;
+}
