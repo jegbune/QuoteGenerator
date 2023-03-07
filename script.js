@@ -1,2 +1,2 @@
-let quote = document.querySelector('.quote');
-let author = document.querySelector('.')
+const quote =fetch('https://type.fit/api/quotes')
+console.log(typeof quote)
