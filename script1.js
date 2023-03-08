@@ -2,7 +2,7 @@ let num = document.querySelector('.number')
 let recite = document.querySelector('.quote');
 let author = document.querySelector('.author');
 let next = document.querySelector('.next');
-const quote = fetch('https://type.fit/api/quotes').then((response) => {
+fetch('https://type.fit/api/quotes').then((response) => {
   return response.json();
 }).then(quote =>{
   // alert(data);
